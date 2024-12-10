@@ -8,7 +8,6 @@ if (isset($_POST["logout"])) {
     header("Location: index2.php");
     exit();
 }
-
 // Fungsi pencarian
 $search_results = array(); // Inisialisasi array untuk hasil pencarian
 
