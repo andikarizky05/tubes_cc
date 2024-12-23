@@ -20,29 +20,6 @@ pipeline {
             }
         }
 
-        stage('Build') {
-            steps {
-                echo 'Building the application...'
-                // Menjalankan langkah build
-                sh 'mvn clean package' // Contoh perintah build menggunakan Maven
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Running tests...'
-                // Tambahkan langkah pengujian sesuai kebutuhan
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying the application...'
-                // Tambahkan langkah deploy sesuai kebutuhan
-            }
-        }
-    }
-
     post {
         always {
             echo 'Pipeline completed.'
