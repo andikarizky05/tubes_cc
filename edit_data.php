@@ -2,7 +2,7 @@
 session_start();
 include("connection.php");
 
-// Check if the user is an admin
+// Check if the user is an admin ta
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: index2.php");
     exit();

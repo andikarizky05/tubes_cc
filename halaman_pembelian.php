@@ -20,7 +20,7 @@ function connectToDatabase()
     return $connection;
 }
 
-// Check if the user is logged in and has the 'user' role
+// Check if the user is logged in and has the 'user' role to
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'user') {
     header("Location: login.php");
     exit();
