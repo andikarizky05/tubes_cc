@@ -6,7 +6,7 @@ include("connection.php");
 $error_message = "";
 $username = "";
 
-// Fungsi login
+// Fungsi login apa
 if (isset($_POST["submit"])) {
     $username = htmlentities(strip_tags(trim($_POST["username"])));
     $password = htmlentities(strip_tags(trim($_POST["password"])));
