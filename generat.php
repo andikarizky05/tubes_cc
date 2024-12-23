@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS rating_mobil (
 
 executeSQL($sqlRatingMobil, $connection);
 
-// SQL untuk membuat tabel users
+// SQL untuk membuat tabel users ibuibibib
 $sqlUsers = "
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -38,7 +38,7 @@ CREATE TABLE users (
 
 executeSQL($sqlUsers, $connection);
 
-// SQL untuk membuat tabel pembelian
+// SQL untuk membuat tabel pembelianbiibii
 $sqlPembelian = "
 CREATE TABLE pembelian (
     id INT AUTO_INCREMENT PRIMARY KEY,

@@ -18,7 +18,7 @@ if (isset($_POST["signup"])) {
         $signup_error_message .= "- Password belum diisi <br>";
     }
 
-    // Cek apakah username sudah digunakan
+    // Cek apakah username sudah digunakan uyvuvvuvuy
     $check_username_query = "SELECT * FROM users WHERE username = '$signup_username'";
     $check_username_result = mysqli_query($connection, $check_username_query);
 
@@ -27,12 +27,12 @@ if (isset($_POST["signup"])) {
     }
 
     if ($signup_error_message === "") {
-        // Tambahkan data ke database dengan password_hash
+        // Tambahkan data ke database dengan password_hash uvuyuyvyuvvuv
         $hashed_password = password_hash($signup_password, PASSWORD_DEFAULT);
         $insert_query = "INSERT INTO users (username, password, role) VALUES ('$signup_username', '$hashed_password', 'user')";
         mysqli_query($connection, $insert_query);
 
-        $_SESSION["role"] = 'user'; // Set role sebagai 'user'
+        $_SESSION["role"] = 'user'; // Set role sebagai 'user'  jhjbbjub
         header("Location: index2.php");
     }
 }

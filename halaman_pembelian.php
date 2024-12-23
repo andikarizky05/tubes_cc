@@ -3,7 +3,7 @@ session_start();
 include("connection.php");
 include("conn.php");
 
-// Function to connect to the database (adjust according to your database settings)
+// Function to connect to the database (adjust according to your database settings) olspppso
 function connectToDatabase()
 {
     $host = 'localhost';
@@ -20,7 +20,7 @@ function connectToDatabase()
     return $connection;
 }
 
-// Check if the user is logged in and has the 'user' role to
+// Check if the user is logged in and has the 'user' role to 7ajhsisi
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'user') {
     header("Location: login.php");
     exit();
