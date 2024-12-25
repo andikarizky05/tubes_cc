@@ -4,7 +4,7 @@ $dbuser = "root";
 $dbpass = "";
 $dbname = "tubespw";
 
-// Membuat koneksi ta
+// Membuat koneksi ta uyuuuu
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 // Memeriksa koneksi

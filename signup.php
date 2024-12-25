@@ -9,7 +9,7 @@ if (isset($_POST["signup"])) {
 
     $signup_error_message = "";
 
-    // Validasi data
+    // Validasi data juyuuu
     if (empty($signup_username)) {
         $signup_error_message .= "- Username belum diisi <br>";
     }
