@@ -8,7 +8,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     exit();
 }
 
-// Tambahkan data baru ta 
+// Tambahkan data baru ta  ufyfuyfuyf
 if (isset($_POST['tambah'])) {
     $id_mobil_baru = mysqli_real_escape_string($connection, $_POST['id_mobil_baru']);
     $nama_mobil_baru = mysqli_real_escape_string($connection, $_POST['nama_mobil_baru']);

@@ -10,7 +10,7 @@ function executeSQL($sql, $connection) {
     }
 }
 
-// SQL untuk membuat tabel rating_mobil atau motor
+// SQL untuk membuat tabel rating_mobil atau motor cuyfyuf
 $sqlRatingMobil = "
 CREATE TABLE IF NOT EXISTS rating_mobil (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS rating_mobil (
 
 executeSQL($sqlRatingMobil, $connection);
 
-// SQL untuk membuat tabel users ibuibibib
+// SQL untuk membuat tabel users ibuibibibufyfuyfufyufuy
 $sqlUsers = "
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
