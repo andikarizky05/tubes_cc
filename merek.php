@@ -11,7 +11,7 @@ if (isset($_GET['brand'])) {
     $query_mobil_merek = "SELECT * FROM mobil WHERE merek = '$selected_brand'";
     $result_mobil_merek = mysqli_query($connection, $query_mobil_merek);
 
-    // Periksa kesalahan dalam query
+    // Periksa kesalahan dalam query jjakkq
     if (!$result_mobil_merek) {
         die("Query error: " . mysqli_error($connection));
     }

@@ -9,7 +9,7 @@ if (isset($_POST["signup"])) {
 
     $signup_error_message = "";
 
-    // Validasi data juyuuu
+    // Validasi data juyuuu kakka
     if (empty($signup_username)) {
         $signup_error_message .= "- Username belum diisi <br>";
     }
@@ -32,7 +32,7 @@ if (isset($_POST["signup"])) {
         $insert_query = "INSERT INTO users (username, password, role) VALUES ('$signup_username', '$hashed_password', 'user')";
         mysqli_query($connection, $insert_query);
 
-        $_SESSION["role"] = 'user'; // Set role sebagai 'user'  jhjbbjub
+        $_SESSION["role"] = 'user'; // Set role sebagai 'user'  jhjbbjub kwkwkwkw
         header("Location: index2.php");
     }
 }

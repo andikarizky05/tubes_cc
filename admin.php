@@ -2,7 +2,7 @@
 session_start();
 include("connection.php");
 
-// Periksa apakah pengguna memiliki hak admin
+// Periksa apakah pengguna memiliki hak admin slslls
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: index2.php");
     exit();
