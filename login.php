@@ -19,7 +19,7 @@ if (isset($_POST["submit"])) {
         $error_message .= "- Password belum diisi <br>";
     }
 
-    // Check admin credentials
+    // Check admin credentialsuigfviugvuyg
     $admin_username = "admin";
     $admin_password = "admin123";
 
